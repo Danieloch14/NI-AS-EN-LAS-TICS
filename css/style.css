@@ -1,0 +1,376 @@
+@font-face {
+    font-family: muli;
+    src: url(/Fonts/Muli-Black.ttf);
+  }
+.content-container {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.footer-custom {
+    background-color: #A10028;
+    color: #fff;
+}
+
+.social-media-footer-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-size: 2em;
+}
+
+.social-media-footer-list li {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .social-media-footer-list {
+        justify-content: center;
+    }
+}
+
+
+
+
+
+.cta-screen {
+    min-height: 100vh;
+    width: fit-content;
+    text-align: center;
+}
+
+.cta-screen p {
+  font-family: muli;
+  font-size: 38px;
+  
+}
+
+.slogan {
+  margin-bottom: #AC88BF;
+}
+
+.cta-screen>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cta-screen2 {
+  min-height: 100vh;
+    width: fit-content;
+}
+.cta-screen2 p {
+  font-family: muli;
+  font-size: 25px;
+  text-align: right;
+}
+
+.cta-screen2 ul li {
+  font-family: muli;
+  font-size: 25px;
+}
+
+.padres {
+  text-align: right;
+}
+
+.cta-screen2 h2 {
+  color: #D13FD6;
+  font-size: 40px;
+  font-family: muli;
+}
+
+#cta-imageT{
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  align-items: center;
+
+}
+
+#cta-imageP {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  align-items: center;
+
+}
+#cta-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#cta-image2 {
+    max-width: 100%;
+    height: auto;
+}
+
+#cta-image3{
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    z-index: -1;
+}
+#cta-btn {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#cta-btn2 {
+    display: inline;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.bi {
+    font-size: 100px;
+}
+
+#question {
+    font-size: 95px;
+}
+
+#espacio {
+    height: 100px;
+}
+
+#cta-btn3 {
+    display: inline;
+    width: 800px;
+    height: 300px;
+    margin: 20px;
+}
+
+.box-news {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.image-size {
+    height: 300px;
+    width: 400px;
+}
+
+.content-img {
+    height: 350px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #A10028;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.spacer {
+    height: 20px;
+}
+
+.form-contact {
+    padding: 50px;
+}
+
+input,
+textarea {
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: lightgrey;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+ /* Estilos para el contenedor del encabezado */
+ .header {
+    background-image: url(/images/Home.png); /* Ruta de la imagen de fondo */
+    background-size: auto;
+    background-position: center;
+    height: 115vh; /* Altura del encabezado, en este caso, 100% del alto de la ventana */
+    display: flex;
+    flex-direction: column; /* Alinear elementos verticalmente */
+    align-items: center; /* Centra horizontalmente el contenido */
+    justify-content: flex-start; /* Alinear elementos en la parte superior */
+    text-align: center;
+    color: #fff; /* Color del texto */
+  }
+
+  /* Estilos para el título */
+  .header h1 {
+    font-size: 48px;
+    margin-top: 50px; /* Espacio superior para el título */
+  }
+
+  /* Estilos para el enlace "Contáctanos" */
+  .contact-link {
+    position: absolute; /* Posición absoluta para ubicarlo en la parte superior izquierda */
+    top: 60px; /* Espacio superior, misma altura que el título */
+    left: 10px; /* Espacio izquierdo */
+    font-size: 25px;
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+  }
+
+  /* Estilos para los iconos de redes sociales */
+  .social-icons {
+    margin-top: 20px; /* Espacio superior para los iconos */
+  }
+
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px; /* Espacio entre los iconos */
+    color: #fff; /* Color del texto */
+  }
+
+  /* Estilos para las imágenes de los iconos */
+  .social-icons i {
+    font-size: 30px; /* Tamaño de los iconos */
+    border-radius: 50%; /* Dar forma de círculo a los iconos */
+  }
+
+  
+
+/* Nuevo2 */
+/* Reset de estilos por defecto */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Contenedor principal de la cabecera */
+  .header-container {
+    width: 100%;
+    height: 700px;
+    background-color: #333; /* Color de fondo de la cabecera */
+    position: relative; /* Posición relativa para posicionar la imagen de fondo */
+    overflow: hidden; /* Ocultar contenido que desborde del contenedor */
+    background-image: linear-gradient(90deg, #5170ff, #ffa3ff);
+  }
+
+  /* Columna izquierda */
+  .column-left {
+    width: 50%;
+    height: 100%;
+    float: left; /* Flotar a la izquierda */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluir padding en el ancho total */
+    font-family: muli;
+    font-weight: bold;
+    
+  }
+  
+  .column-left h1{
+    font-size: 100px;
+  }
+
+  .column-left h2 {
+
+    font-size: 33px;
+    margin-top: 30px;
+
+  }
+
+  .column-left h3{
+    font-size: 40px;
+  }
+
+  /* Columna derecha con imagen de fondo */
+  .column-right {
+    width: 50%;
+    height: 100%;
+    float: right; /* Flotar a la derecha */
+    background-image: url('/images/IMG_0033.JPG'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen al tamaño de la columna */
+    background-position: center; /* Centrar la imagen en la columna */
+  }
+
+  /* Contenido dentro de las columnas */
+  .column-content {
+    margin: 0 auto; /* Centrar el contenido verticalmente */
+    max-width: 600px; /* Ancho máximo del contenido */
+    color: #fff; /* Color del texto */
+  }
+
+  /* Estilos adicionales para el contenido */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+
+/* Pie */
+/* Contenedor principal de la cabecera */
+.header-container2 {
+  width: 100%;
+  height: 700px;
+  background-color: #70CFF4 ; /* Color de fondo de la cabecera */
+  position: relative; /* Posición relativa para posicionar la imagen de fondo */
+  overflow: hidden; /* Ocultar contenido que desborde del contenedor */
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+/* Columna izquierda */
+.column-left2 {
+ 
+  width: 50%;
+  height: 100%;
+  float: right; /* Flotar a la derecha */
+  background-image: url('/images/niña.png'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Ajustar la imagen al tamaño de la columna */
+  background-position: center; /* Centrar la imagen en la columna */
+  
+  
+}
+
+.column-left2 h1{
+  font-size: 100px;
+}
+
+.column-left2 h2 {
+
+  font-size: 33px;
+  margin-top: 30px;
+
+}
+
+.column-left2 h3{
+  font-size: 40px;
+}
+
+/* Columna derecha con imagen de fondo */
+.column-right2 {
+  width: 50%;
+  height: 100%;
+  float: left; /* Flotar a la izquierda */
+  padding: 20px; /* Espaciado interno */
+  box-sizing: border-box; /* Incluir padding en el ancho total */
+  font-family: muli;
+  font-weight: bold;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+/* Contenido dentro de las columnas */
+.column-content2 {
+  margin: 0 auto; /* Centrar el contenido verticalmente */
+  max-width: 600px; /* Ancho máximo del contenido */
+  color: #fff; /* Color del texto */
+}
+
+/* Estilos adicionales para el contenido */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+
