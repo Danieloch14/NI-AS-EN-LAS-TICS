@@ -1,6 +1,6 @@
 @font-face {
     font-family: muli;
-    src: url(/Fonts/Muli-Black.ttf);
+    src: url(../Fonts/Muli-Black.ttf);
   }
 .content-container {
     min-height: 100vh;
